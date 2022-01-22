@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+              <!-- link for css -->
+              <link rel="stylesheet" type="text/css" href="./style.css"/>
+              <!-- Meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Techsnap Blog</title>
+               <!-- google fonts -->
+               <link rel="preconnect" href="https://fonts.googleapis.com">
+               <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+               <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="main-container">
+        <div class="head-container">
+                <p id="heading">Find interesting mini projects for CSE and get started </p>
+                <div class="head">
+                    <img src="./images/Image-1.png" id="img"/>
+                    <p id="text">Include interesting  projects to your resume for free. Complete the projects by following a recommended action plan.</p>
+                </div>
+                <p id="para">Get <span id="colour">Skilled.</span> Get  <span id="colour">Certified.</span> Get  <span id="colour">Hired.</span></p>
+         </div>
+         <div class="container">
+
+                <div class="border"><hr></div>
+                <div class="yellow-border">Get Personalized Recommendations by taking this test</div>
+               <div class="career">
+                    <div class="flex">
+                        <p id="career">Career Path</p>
+                        <p id="para-1">86 results on techsnap</p>
+                    </div>
+                   <div class="input">
+                        <input type="text" placeholder="Search" />
+                        <img src="./images/search.png"/>
+                   </div>
+                    <div class="page-buttons-1">
+                        <button  id="next" onclick="loadOnClick(0)"><<</button>
+                        <button onclick="loadOnClick(1)">1</button>
+                        <button onclick="loadOnClick(2)">2</button>
+                        <button onclick="loadOnClick(3)">3</button>
+                        <button onclick="loadOnClick(4)">4</button>
+                        <button id="more" onclick="loadOnClick(12)">....</button>
+                        <button id="hide-btn" onclick="loadOnClick(5)">5</button>
+                        <button id="hide-btn" onclick="loadOnClick(6)">6</button>
+                        <button id="hide-btn" onclick="loadOnClick(7)">7</button>
+                        <button id="hide-btn" onclick="loadOnClick(8)">8</button>
+                        <button id="hide-btn" onclick="loadOnClick(9)">9 </button>
+                        <button id="hide-btn" onclick="loadOnClick(9)">10 </button>
+                        <button onclick="loadOnClick(9)">11 </button>
+                        <button id="pre" onclick="loadOnClick(0)">>></button>
+                </div>
+               </div>
+             <div class="grid-container">
+              <div class="card">
+                    <div class="card-up">
+                        <button id="free">Free</button>
+                        <div><p id="para-4">Data Scientist</p></div>
+                        <div class="icon">
+                            <div id="icon"><img src="./images/eye.png" alt=""/><p>5.6k views</p></div>
+                            <div id="icon"><img src="./images/blog.png" alt=""/><p>Blog Included</p></div>
+                            <div id="icon"><img src="./images/presentation.png" alt=""/><p>13 courses</p></div>
+                        </div>
+                    </div>
+                    <div class="card-down">
+                        <p id="para-5">You'll extract, analyse and interpret large amounts of data from a range of sources, using algorithmic, data mining, artificial intelligence, machine learning and statistical tools, in order to make it accessible to businesses. </p>
+                        <button id="view">View Roadmap</button>
+                    </div>
+               </div>
+             </div>
+             
+            </div>
+        <div class="pagination">
+                <!-- buttons for switching to other pages -->
+          <div class="page-buttons">
+             <button onclick="loadOnClick(0)"><<</button>
+             <button onclick="loadOnClick(0)"><</button>
+             <button onclick="loadOnClick(1)">1</button>
+             <button onclick="loadOnClick(2)">2</button>
+             <button onclick="loadOnClick(3)">3</button>
+             <button onclick="loadOnClick(4)">4</button>
+             <button onclick="loadOnClick(5)">5</button>
+             <button onclick="loadOnClick(6)">6</button>
+             <button onclick="loadOnClick(7)">7</button>
+             <button onclick="loadOnClick(8)">8</button>
+             <button onclick="loadOnClick(9)">9</button>
+             <button onclick="loadOnClick(0)">>></button>
+             <button onclick="loadOnClick(0)">></button>
+         </div>
+      </div>
+      <div id="para-6">Choose the Career Path in TechSnap </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
